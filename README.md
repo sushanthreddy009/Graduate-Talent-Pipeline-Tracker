@@ -1,4 +1,4 @@
-# 🎓 mthree Graduate Talent Pipeline Tracker (CLI-Based)
+# 🎓 Graduate Talent Pipeline Tracker (CLI-Based)
 
 Welcome to the **mthree Graduate Talent Pipeline Tracker**, a powerful and fully interactive **CLI-based system** designed to streamline the process of **onboarding, tracking, and evaluating graduates** during their journey through training and beyond.
 
