@@ -53,10 +53,6 @@ Welcome to the **mthree Graduate Talent Pipeline Tracker**, a powerful and fully
 │
 ├── dashboard.sh
 └── README.md
-
-
-
-
 ```
 
 ## 🚀 Features
