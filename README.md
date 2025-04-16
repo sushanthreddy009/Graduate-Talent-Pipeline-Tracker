@@ -30,10 +30,7 @@ Welcome to the **mthree Graduate Talent Pipeline Tracker**, a powerful and fully
 
 ---
 
-## 📦 Project Structure
-
-mthree_pipeline_tracker/
-│
+📦 mthree_pipeline_tracker/
 ├── scripts/
 │   ├── add_graduate.sh
 │   ├── view_graduates.sh
@@ -55,6 +52,7 @@ mthree_pipeline_tracker/
 │
 ├── dashboard.sh
 └── README.md
+
 
 
 
