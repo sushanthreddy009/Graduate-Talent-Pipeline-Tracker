@@ -111,7 +111,7 @@ Generates a **structured report** with:
 📁 **Output**: `reports/grad_{id}_report.txt`
 
 > ℹ️ Redirect output to a file:
-```bash
+
 bash scripts/generate_readiness.sh > reports/grad_1_report.txt
 
 ### 8. 🧪 CLI Assessment for Hiring
