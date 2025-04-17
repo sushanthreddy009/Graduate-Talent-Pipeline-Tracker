@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo "📈 Generating Placement Readiness Report..."
+# ✅ Load MySQL credentials from .env file in project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+source "$PROJECT_ROOT/.env"
+
 
 read -p "🎓 Enter Graduate ID: " grad_id
-
-DB_USER="root"
-DB_PASS="@Sushanth6302"
-DB_NAME="mthree_tracker"
 
 # Fetch total rating & count
 total_rating=$(mysql -u $DB_USER -p$DB_PASS -D $DB_NAME -se "SELECT IFNULL(SUM(rating),0) FROM performance_reviews WHERE grad_id=$grad_id;")
