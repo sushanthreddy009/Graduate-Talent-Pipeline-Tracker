@@ -2,6 +2,12 @@
 
 echo "📅 Weekly Engagement Tracking"
 
+# ✅ Load MySQL credentials from .env file in project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+source "$PROJECT_ROOT/.env"
+
+
 read -p "🎓 Enter Graduate ID: " grad_id
 read -p "📅 Week Number (e.g., 1, 2, 3): " week_no
 read -p "📊 Attendance Percentage (0-100): " attendance_percent
