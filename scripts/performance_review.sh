@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo "🔍 Performance Review"
+# ✅ Load MySQL credentials from .env file in project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+source "$PROJECT_ROOT/.env"
+
 
 read -p "🎓 Enter Graduate ID: " grad_id
 read -p "🧑<200d>🏫 Enter Reviewer Name: " reviewer
