@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# ✅ Load MySQL credentials from .env file in project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+source "$PROJECT_ROOT/.env"
+
 read -p "👤 Enter Graduate Name: " name
 read -p "📧 Enter Email: " email
 read -p "🧠 Enter Domain: " domain
