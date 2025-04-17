@@ -1,16 +1,16 @@
 #!/bin/bash
 
+# ✅ Load MySQL credentials from .env file in project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+source "$PROJECT_ROOT/.env"
+
 # 🔐 Inputs
 read -p "🎓 Enter Graduate ID: " grad_id
 read -p "📜 Certification Name: " cert_name
 read -p "🌐 Platform (e.g., Coursera, Udemy): " platform
 read -p "📅 Date Completed (YYYY-MM-DD): " date_completed
 read -p "✅ Is Verified? (1 = Yes, 0 = No): " is_verified
-
-# ✅ MySQL credentials
-DB_USER="root"
-DB_PASS="@Sushanth6302"
-DB_NAME="mthree_tracker"
 
 # ✅ Check if graduate exists
 exists=$(mysql -u "$DB_USER" -p"$DB_PASS" "$DB_NAME" -se "SELECT COUNT(*) FROM graduates WHERE id='$grad_id';")
