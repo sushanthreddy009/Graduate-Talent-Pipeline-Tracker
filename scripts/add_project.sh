@@ -8,10 +8,6 @@ read -p "🧠 Technologies Used: " tech
 read -p "⏳ Duration (e.g., 3 months): " duration
 read -p "📅 Completion Date (YYYY-MM-DD): " date
 
-# ✅ MySQL credentials (customized for dev use only)
-DB_USER="root"
-DB_PASS="@Sushanth6302"
-DB_NAME="mthree_tracker"
 
 # ✅ INSERT into DB
 mysql -u "$DB_USER" -p"$DB_PASS" "$DB_NAME" <<EOF
