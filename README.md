@@ -162,13 +162,13 @@ Real-world scenarios (e.g. crontab, permissions)
 
 🐧 For Linux users: optionally install tput for colored terminal (usually pre-installed)
 
-📦 Installation & Setup
+### 📦 Installation & Setup
 
 1. Clone the repository:
 git clone https://github.com/yourusername/mthree_pipeline_tracker.git
 
 2.Navigate to the project:
-cd mthree_pipeline_tracker/database/mthree_pipeline_tracker
+cd Graduate-Talent-Pipeline-Tracker
 
 3. Setup the MySQL database (optional SQL dump can be added):
 
@@ -180,6 +180,8 @@ bash dashboard.sh
 
 you will see like:
 ![image](https://github.com/user-attachments/assets/07f4fa8d-136b-4e28-8952-260da71c06f7)
+![WhatsApp Image 2025-04-21 at 05 04 00_b57dfa20](https://github.com/user-attachments/assets/5c08cafb-609c-4138-b75b-f50f35201bdc)
+
 
 🤝 Team
 👨‍💻 Team 1 – Project: CLI-Based Graduate Talent Pipeline Tracker for mthree
