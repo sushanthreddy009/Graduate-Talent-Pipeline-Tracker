@@ -31,30 +31,6 @@ Welcome to the **mthree Graduate Talent Pipeline Tracker**, a powerful and fully
 ## 📂 Project Structure
 
 ```
-📦 mthree_pipeline_tracker/
-├── scripts/
-│   ├── add_graduate.sh
-│   ├── view_graduates.sh
-│   ├── add_certification.sh
-│   ├── add_project.sh
-│   ├── performance_review.sh
-│   ├── weekly_engagement.sh
-│   └── generate_readiness.sh
-│
-├── reports/
-│   └── grad_{id}_report.txt
-│
-├── interview-assessment/
-│   └── cli-test/
-│       └── cli_assessment.sh
-│
-├── logs/
-│   └── test_results.log
-│
-├── dashboard.sh
-└── README.md
-
-
 
 📦mthree_pipeline_tracker/
 ├── scripts/
@@ -68,13 +44,13 @@ Welcome to the **mthree Graduate Talent Pipeline Tracker**, a powerful and fully
 
 ├── admin-portal/
 │   ├── login.sh
-│   └── dashboard.sh    <-- move it here
+│   └── dashboard.sh
 
 ├── student-portal/
 │   ├── login.sh
-│   └── cli_assessment.sh    <-- move from cli-test/
+│   └── cli_assessment.sh
+│   ├── reports/
 
-├── reports/
 ├── logs/
 └── README.md
 
