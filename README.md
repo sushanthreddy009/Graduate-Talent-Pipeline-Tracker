@@ -178,8 +178,8 @@ mysql -u root -p < schema.sql
 Run the dashboard to use the system:
 bash dashboard.sh
 
-you will see like:
-![image](https://github.com/user-attachments/assets/07f4fa8d-136b-4e28-8952-260da71c06f7)
+you will see like this:
+
 ![WhatsApp Image 2025-04-21 at 05 04 00_b57dfa20](https://github.com/user-attachments/assets/5c08cafb-609c-4138-b75b-f50f35201bdc)
 
 
