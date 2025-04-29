@@ -183,15 +183,3 @@ you will see like this:
 ![WhatsApp Image 2025-04-21 at 05 04 00_b57dfa20](https://github.com/user-attachments/assets/5c08cafb-609c-4138-b75b-f50f35201bdc)
 
 
-🤝 Team
-👨‍💻 Team 1 – Project: CLI-Based Graduate Talent Pipeline Tracker for mthree
-
-Sushanth
-
-Nandan
-
-Sreemathi
-
-Srihari
-
-
